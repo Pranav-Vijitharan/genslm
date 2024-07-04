@@ -24,7 +24,7 @@ class GenSLM(nn.Module):
             "config": str(__architecture_path / "neox" / "neox_25,290,752.json"),
             "tokenizer": str(__tokenizer_path / "codon_wordlevel_69vocab.json"),
             "weights": "patric_25m_epoch01-val_loss_0.57_bias_removed.pt",
-            "seq_length": "2048",
+            "seq_length": "3822",
         },
         "genslm_250M_patric": {
             "config": str(__architecture_path / "neox" / "neox_244,464,576.json"),
